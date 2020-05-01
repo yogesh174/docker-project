@@ -152,16 +152,3 @@ We'll use the following PHP application to demonstrate everything:
 
 "error.php" will be displyed if a request is invalid.
 
-### Demonstration of docker-compose up!
-
-```
-$ docker-compose up
-
-<... some details omitted ...>
-php_1     | [16-Jul-2018 02:08:11] NOTICE: fpm is running, pid 1
-php_1     | [16-Jul-2018 02:08:11] NOTICE: ready to handle connections
-apache_1  | [Mon Jul 16 02:08:12.494294 2018] [pid 1:tid 140290664872840] AH00489: Apache/2.4.33 (Unix)
-apache_1  | [Mon Jul 16 02:08:12.496833 2018] [pid 1:tid 140290664872840] AH00094: Command line: 'httpd -D FOREGROUND'
-mysql_1   | 2018-07-16 02:08:12 1 [Note] mysqld: ready for connections.
-mysql_1   | Version: '5.6.40'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
-```
